@@ -106,18 +106,6 @@ main{
     border-radius: 8px;
 }
 
-@media (min-width: 510px){
-  .container{
-    flex-direction: row;
-  }
-}
-
-/* @media (min-width: 600px) {
-  .container {
-    flex-direction: row;
-  }
-} */
-
 .picture img{
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -159,6 +147,16 @@ main{
   font-weight: var(--fw-regular);
   color: var(--clr-neutral-100);
   text-transform: capitalize;
+}
+
+@media (min-width: 510px){
+  .container{
+    flex-direction: row-reverse;
+  }
+  .stats {
+    flex-direction: row;
+
+  }
 }
 
 
