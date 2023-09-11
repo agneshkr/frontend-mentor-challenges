@@ -69,6 +69,11 @@ article {
     color: inherit;
     height: 40px;
 }
+.button:hover{
+    background-color: transparent;
+    color: var(--clr-neutral-200);
+    border: solid 2px var(--clr-neutral-200);
+}
 
 h1 {
     font-weight: var(--fw-bold);
