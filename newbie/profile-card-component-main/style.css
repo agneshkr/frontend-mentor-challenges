@@ -16,7 +16,11 @@
 
 body {
     background-color: var(--clr-primary-400);
-    /* background-image: url(./images/bg-pattern-top.svg); */
+    background-repeat: no-repeat;
+    /* overflow:hidden; */
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-size: 100% 100%, 100% 100%;
+    background-position: -42vw -50vh, 48vw 50vh;
     font-family: var(--ff);
     font-weight: var(--fw-regular);
     font-size: var(--fs);
@@ -24,6 +28,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (min-width: 530px){
+    body{
+        background-position: -42vw -50vh, 45vw 50vh;    
+    }
 }
 
 article {
@@ -43,7 +53,6 @@ article {
     background-color: white;
     display: flex;
     text-align: center;
-    /* padding-bottom: 1rem; */
     flex-direction: column;
     align-items: center;
     gap: 2rem;
