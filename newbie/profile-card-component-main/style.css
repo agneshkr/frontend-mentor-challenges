@@ -19,7 +19,7 @@ body {
     background-repeat: no-repeat;
     /* overflow:hidden; */
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
-    background-size: 100% 100%, 100% 100%;
+    background-size: 100% 130%, 100% 130%;
     background-position: -42vw -50vh, 48vw 50vh;
     font-family: var(--ff);
     font-weight: var(--fw-regular);
@@ -32,7 +32,7 @@ body {
 
 @media (min-width: 530px){
     body{
-        background-position: -42vw -50vh, 45vw 50vh;    
+        background-position: -42vw -50vh, 42vw 50vh;    
     }
 }
 
