@@ -6,7 +6,8 @@ const URL_MAPPINGS = {
         'A product Catalog': 'product-preview-card-component-main/index.html',
         'A Result Summary Component Catalog': 'results-summary-component-main/index.html',
         'A QR CODE Component': 'qr-code-component-main/index.html',
-        'A 3 Column Preview Component': '3-column-preview-card-component-main/index.html'
+        'A 3 Column Preview Component': '3-column-preview-card-component-main/index.html',
+        'A Profile card Component': 'profile-card-component-main/index.html'
     }
 }
 const ADDRESS_CONSTANT = "https://agneshkr.github.io/frontend-mentor-challenges/"

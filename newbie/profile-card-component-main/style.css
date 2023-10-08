@@ -19,8 +19,8 @@ body {
     background-repeat: no-repeat;
     /* overflow:hidden; */
     background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
-    background-size: 100% 130%, 100% 130%;
-    background-position: -42vw -50vh, 48vw 50vh;
+    background-size: 100vw 100vw, 100vw 100vw;
+    background-position: -50vw -50vw, 50vw 75vh;
     font-family: var(--ff);
     font-weight: var(--fw-regular);
     font-size: var(--fs);
@@ -32,7 +32,8 @@ body {
 
 @media (min-width: 530px){
     body{
-        background-position: -42vw -50vh, 42vw 50vh;    
+        background-size: 70vw 70vw, 70vw 70vw;
+        background-position: -22vw -60vh, 48vw 40vh;    
     }
 }
 
