@@ -1,0 +1,54 @@
+
+
+:root {
+    --clr-primary-pale: hsl(245, 75%, 52%);
+    --clr-primary-bright: hsl(245, 75%, 52%);
+    --clr-neutral-100: hsl(225, 100%, 98%);
+    --clr-neutral-400: hsl(224, 23%, 55%);
+    --clr-neutral-700: hsl(223, 47%, 23%);
+
+    --fs: 16px;
+    --fw-light: 500;
+    --fw-medium: 700;
+    --fw-bold: 900;
+    --ff: 'Red Hat Display', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-neutral-100);
+}
+
+article{
+    margin: 5%;
+    background-color: white;
+    height: 85%;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+/* deciding the size taken up by elements in a flexgroup */
+.order-details{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+/* 
+need to figure out following things
+are paddings inherited
+flex children spacing control
+background image
+shadow
+
+*/
+.order-plan{
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+
