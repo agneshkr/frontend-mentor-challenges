@@ -1,0 +1,27 @@
+
+:root{
+    --clr-primary-100: hsl(0, 36%, 70%);
+    --clr-primary-300: hsl(0, 93%, 68%);
+    --clr-neutral-800: hsl(0, 6%, 24%);
+    /* --clr-gradient */
+    --fs: 16px;
+    --ff: 'Josefin Sans', sans-serif;
+
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 600;
+}
+/* 
+go through picture tag again
+dealing with header
+*/
+
+main {
+    font-size: var(--fs);
+    font-family: var(--ff);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
